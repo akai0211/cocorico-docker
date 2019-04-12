@@ -1,11 +1,11 @@
 # This file is auto-generated during the composer install
 parameters:
-    database_host: localhost
-    database_port: null
+    database_host: <host_IP>
+    database_port: 3306
     database_name: cocorico
     database_user: cocorico
     database_password: cocorico
-    mongodb_server: 'mongodb://localhost:27017'
+    mongodb_server: 'mongodb://127.0.0.1:27017'
     mongodb_database_name: cocorico
     mailer_transport: smtp
     mailer_host: localhost
@@ -14,8 +14,8 @@ parameters:
     mailer_port: null
     secret: d69958a4fff6ba8f0f4fc4fc2657366ccf9dd0f3
     use_assetic_controller: false
-    cocorico.assets_base_urls: 'http://localhost'
-    router.request_context.host: localhost
+    cocorico.assets_base_urls: 'http://coco.test'
+    router.request_context.host: <host_name. Ex: coco.test>
     router.request_context.scheme: http
     router.request_context.base_url: ''
     cocorico.admin: admin
