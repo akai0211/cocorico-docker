@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if [[ ! -f composer.json ]]; then
-    git clone --no-checkout https://github.com/Cocolabs-SAS/cocorico
+    git clone --no-checkout https://github.com/akai0211/cocorico.git
     mv cocorico/.git .
     rmdir cocorico
     git reset --hard HEAD
